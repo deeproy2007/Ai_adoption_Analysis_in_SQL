@@ -1,0 +1,84 @@
+# tool.txt
+
+This file documents all the tools, technologies, and SQL operations used in the **College AI Impact Analysis** project.
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+### **1. MySQL Database**
+
+* Database creation
+* Table querying
+* Data aggregation
+* Joins (INNER JOIN)
+* Filtering (WHERE)
+* Ordering & Limiting
+
+---
+
+## 📌 SQL Operations Included
+
+### **1. Database Setup**
+
+* CREATE DATABASE
+* USE database
+
+### **2. Data Retrieval & Filtering**
+
+* SELECT statements
+* WHERE clause for filtering (e.g., adoption_year = 2024)
+
+### **3. Aggregations**
+
+* COUNT()
+* AVG()
+* SUM()
+* GPA calculations
+
+### **4. Grouping Data**
+
+* GROUP BY department
+* GROUP BY student
+* GROUP BY AI platform
+
+### **5. Ranking & Sorting**
+
+* ORDER BY DESC
+* LIMIT 10
+
+### **6. Performance Insights**
+
+* GPA before vs GPA after comparison
+* Attendance improvement
+* Quiz vs Hours usage correlation
+
+---
+
+## 📊 Tables Involved
+
+### **1. colleges**
+
+Contains info about:
+
+* college_id
+* college_name
+* adoption_year
+* ai_platform
+
+### **2. students**
+
+Includes:
+
+* student_id
+* student_name
+* college_id
+* department
+* semester
+
+### **3. performance**
+
+Tracks:
+
+* gpa_before_ai
+* gpa_after_a
